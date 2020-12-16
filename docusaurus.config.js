@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Qt for MCUs',
   tagline: 'The tagline of my site',
-  url: 'https://qt-book-demo.github.io',
-  baseUrl: '/',
+  url: 'https://surakka.github.io/qt-book-demo/',
+  baseUrl: '/qt-book-demo/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
