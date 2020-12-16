@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{83:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/qt-book-demo/blog/welcome"},{"title":"Hello","permalink":"/qt-book-demo/blog/hello-world"},{"title":"Hola","permalink":"/qt-book-demo/blog/hola"}]}')}}]);
