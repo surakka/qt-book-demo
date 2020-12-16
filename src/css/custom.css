@@ -1,0 +1,51 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #41cd52;
+  --ifm-color-primary-dark: #33c044;
+  --ifm-color-primary-darker:#30b640;
+  --ifm-color-primary-darkest: #279635;
+  --ifm-color-primary-light: #56d365;
+  --ifm-color-primary-lighter: #61d56f;
+  --ifm-color-primary-lightest: #81de8c;
+  --ifm-code-font-size: 95%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.pagination-nav__item {
+  filter: 
+    drop-shadow(0px -1px 0px var(--ifm-color-primary)) 
+    drop-shadow(0px 2px 0px var(--ifm-color-primary))
+    drop-shadow(2px 0px 0px var(--ifm-color-primary)) 
+    drop-shadow(-1px 0px 0px var(--ifm-color-primary));
+}
+
+a.pagination-nav__link {
+  border-radius: 0;
+  border: none;
+  background: var(--ifm-background-surface-color);
+  position: relative;
+  clip-path: polygon(
+    0% 20px,     /* top left */
+    20px 0%,     /* top left */
+    100% 0%,    /* top right */
+    100% 0%,   /* top right */
+    100% calc(100% - 20px),  /* bottom right */
+    calc(100% - 20px) 100%,  /* bottom right */
+    0% 100%,   /* bottom left */
+    0 100%      /* bottom left */
+  );
+}
