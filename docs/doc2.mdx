@@ -1,0 +1,32 @@
+---
+id: doc2
+title: MCU Button
+---
+
+export const Button = ({children}) => (
+  <div style={{
+    filter: 'drop-shadow(0px -1px 0px var(--ifm-color-primary)) drop-shadow(0px 2px 0px var(--ifm-color-primary)) drop-shadow(2px 0px 0px var(--ifm-color-primary)) drop-shadow(-1px 0px 0px var(--ifm-color-primary))'
+  }}>
+    <button style={{
+      padding: '1.5em 2em',
+      margin: '1em 0em',
+      borderRadius: '0',
+      border: 'none',
+      background: 'var(--ifm-background-surface-color)',
+      position: 'relative',
+      clipPath: 'polygon(0% 20px, 20px 0%, 100% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0% 100%, 0 100%)'
+    }}>
+      {children}
+    </button>
+  </div>
+);
+
+
+This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+
+
+<Button>Hello world!</Button>
+
+```qml title="MCU Button code"
+Hello world!
+```
