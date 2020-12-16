@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{67:function(o){o.exports=JSON.parse('{"allTagsPath":"/qt-book-demo/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/qt-book-demo/blog/tags/facebook"}')}}]);
